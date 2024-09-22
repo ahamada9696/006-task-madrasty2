@@ -1,0 +1,189 @@
+body{
+    text-transform: capitalize;
+    font-family: cursive;
+}
+
+/* start header section ****************************** */
+
+/* start navbar------ */
+.nav-home{
+width: 70%;
+}
+.nav-home a{
+    font-size: 22px;
+}
+.navbar-brand img{
+    width: 150px;
+    height: 100px;
+}
+@media (max-width:768px){
+    .logo{
+        margin-left: 70%;
+    }
+}
+@media (max-width:578px){
+    .logo{
+        margin-left: 50%;
+    }
+}
+/* end navbar------ */
+header{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to bottom,#335f3ece,rgba(0, 128, 0, 0.747)) ,url(../img/glass.jpg) no-repeat ;
+    background-size: cover;
+}
+.hero a{
+    font-size: 2px;
+}
+.hero-heading{
+    line-height: 3.25rem;
+}
+.header-form{
+    min-width: 80%;
+}
+.search{
+    min-width: 40%;
+    margin: auto;
+    border-radius: 20px !important;
+
+}
+.hero-form input{ 
+    min-width: 70%;
+    height: 6vh;
+    border-radius: 20px ;
+
+}
+.fab{
+    font-size: 30px;
+}
+.hero-links a{
+    font-size: 1.25rem;
+    
+}
+/* end header section ****************************** */
+
+/* start about section ******************************** */
+.about{
+/* height: auto;
+width: 90%;
+margin: auto;
+padding: 20px;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center; */
+position: relative;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+.img1-back{
+    width: 131px;
+    position: absolute;
+    z-index: -999;
+    left: -10%;
+    bottom: 33px;
+}
+.img2-back{
+    width: 111px;
+    position: absolute;
+    z-index: -999;
+    left: -12%;
+    top: 26px;
+
+}
+.about .child1{
+    min-width: 45%;
+    min-height: 60vh;
+position: relative;
+}
+.about .child1 img{
+    position: absolute;
+}
+.about .child1 img:nth-of-type(1){
+    min-width: 30%;
+    height: 15vh;
+    bottom: 0;
+    left: 0;
+}
+.about .child1 img:nth-of-type(2){
+    width: 200px;
+    height: 5vh;
+    top: 0;
+    left: 0;
+}
+.about .child1 img:nth-of-type(3){
+    width: 80%;
+    height: 100%;
+    right: 0;
+}
+
+.about .child2{
+min-width: 45%;
+height: 100%;
+padding: 2rem;
+
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+.about .child2 h3{
+    font-size: 2rem;
+    margin: 1rem;
+    justify-self: start;
+    align-self: start;
+}
+@media (max-width:768px){
+    .about{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .child1{
+        width: 100%;
+    }
+}
+@media (max-width:578px){
+    .about{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .child1{
+        width: 100%;
+    }
+}
+/* end about section ******************************** */
+
+/* start features-card ------------------------------------------------------ */
+.features-card{
+    height: auto;
+}
+
+/* end features-card ------------------------------------------------------ */
+
+/* start goals-img1 setion -------------------------------------------------------------------- */
+.goals-img1{
+    width: 100%;
+    max-height: 90%;
+}
+.goals-p1 ,.goals-p2{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+   line-height: 1.75rem;
+}
+
+/* end goals-img1 setion -------------------------------------------------------------------- */
+
+/* start footer section ------------------------------------------------------------------- */
+footer{
+    background: #0f7b65;
+    border-top-left-radius: 10rem;
+    border-top-right-radius: 10rem;
+}
+.fab:hover{
+    transform: scale(1.1);
+}
+/* end footer section ------------------------------------------------------------------- */
